@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FEC77892042D33900DCDA4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC77882042D33900DCDA4B /* AppDelegate.swift */; };
+		3FEC778D2042D33900DCDA4B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC778C2042D33900DCDA4B /* GameViewController.swift */; };
+		3FEC77902042D33900DCDA4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC778E2042D33900DCDA4B /* Main.storyboard */; };
+		3FEC77922042D33900DCDA4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC77912042D33900DCDA4B /* Assets.xcassets */; };
+		3FEC77952042D33900DCDA4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC77932042D33900DCDA4B /* LaunchScreen.storyboard */; };
+		3FEC77A02042D33900DCDA4B /* StarWars__Cantina_SimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC779F2042D33900DCDA4B /* StarWars__Cantina_SimulatorTests.swift */; };
+		3FEC77AB2042D33900DCDA4B /* StarWars__Cantina_SimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC77AA2042D33900DCDA4B /* StarWars__Cantina_SimulatorUITests.swift */; };
+		3FEC77BB2042FB0500DCDA4B /* Items.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC77BA2042FB0500DCDA4B /* Items.scnassets */; };
+		3FEC77BD204302C600DCDA4B /* ShapeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC77BC204302C600DCDA4B /* ShapeType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FEC779C2042D33900DCDA4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FEC777D2042D33900DCDA4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FEC77842042D33900DCDA4B;
+			remoteInfo = "StarWars: Cantina Simulator";
+		};
+		3FEC77A72042D33900DCDA4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FEC777D2042D33900DCDA4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FEC77842042D33900DCDA4B;
+			remoteInfo = "StarWars: Cantina Simulator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FEC77852042D33900DCDA4B /* StarWars: Cantina Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StarWars: Cantina Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEC77882042D33900DCDA4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FEC778C2042D33900DCDA4B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		3FEC778F2042D33900DCDA4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FEC77912042D33900DCDA4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FEC77942042D33900DCDA4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FEC77962042D33900DCDA4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FEC779B2042D33900DCDA4B /* StarWars: Cantina SimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StarWars: Cantina SimulatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEC779F2042D33900DCDA4B /* StarWars__Cantina_SimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWars__Cantina_SimulatorTests.swift; sourceTree = "<group>"; };
+		3FEC77A12042D33900DCDA4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FEC77A62042D33900DCDA4B /* StarWars: Cantina SimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StarWars: Cantina SimulatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEC77AA2042D33900DCDA4B /* StarWars__Cantina_SimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWars__Cantina_SimulatorUITests.swift; sourceTree = "<group>"; };
+		3FEC77AC2042D33900DCDA4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FEC77BA2042FB0500DCDA4B /* Items.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Items.scnassets; sourceTree = "<group>"; };
+		3FEC77BC204302C600DCDA4B /* ShapeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FEC77822042D33900DCDA4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEC77982042D33900DCDA4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEC77A32042D33900DCDA4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FEC777C2042D33900DCDA4B = {
+			isa = PBXGroup;
+			children = (
+				3FEC77872042D33900DCDA4B /* StarWars: Cantina Simulator */,
+				3FEC779E2042D33900DCDA4B /* StarWars: Cantina SimulatorTests */,
+				3FEC77A92042D33900DCDA4B /* StarWars: Cantina SimulatorUITests */,
+				3FEC77862042D33900DCDA4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FEC77862042D33900DCDA4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FEC77852042D33900DCDA4B /* StarWars: Cantina Simulator.app */,
+				3FEC779B2042D33900DCDA4B /* StarWars: Cantina SimulatorTests.xctest */,
+				3FEC77A62042D33900DCDA4B /* StarWars: Cantina SimulatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FEC77872042D33900DCDA4B /* StarWars: Cantina Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				3FEC77BA2042FB0500DCDA4B /* Items.scnassets */,
+				3FEC77882042D33900DCDA4B /* AppDelegate.swift */,
+				3FEC778C2042D33900DCDA4B /* GameViewController.swift */,
+				3FEC778E2042D33900DCDA4B /* Main.storyboard */,
+				3FEC77912042D33900DCDA4B /* Assets.xcassets */,
+				3FEC77932042D33900DCDA4B /* LaunchScreen.storyboard */,
+				3FEC77962042D33900DCDA4B /* Info.plist */,
+				3FEC77BC204302C600DCDA4B /* ShapeType.swift */,
+			);
+			path = "StarWars: Cantina Simulator";
+			sourceTree = "<group>";
+		};
+		3FEC779E2042D33900DCDA4B /* StarWars: Cantina SimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FEC779F2042D33900DCDA4B /* StarWars__Cantina_SimulatorTests.swift */,
+				3FEC77A12042D33900DCDA4B /* Info.plist */,
+			);
+			path = "StarWars: Cantina SimulatorTests";
+			sourceTree = "<group>";
+		};
+		3FEC77A92042D33900DCDA4B /* StarWars: Cantina SimulatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FEC77AA2042D33900DCDA4B /* StarWars__Cantina_SimulatorUITests.swift */,
+				3FEC77AC2042D33900DCDA4B /* Info.plist */,
+			);
+			path = "StarWars: Cantina SimulatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FEC77842042D33900DCDA4B /* StarWars: Cantina Simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEC77AF2042D33900DCDA4B /* Build configuration list for PBXNativeTarget "StarWars: Cantina Simulator" */;
+			buildPhases = (
+				3FEC77812042D33900DCDA4B /* Sources */,
+				3FEC77822042D33900DCDA4B /* Frameworks */,
+				3FEC77832042D33900DCDA4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StarWars: Cantina Simulator";
+			productName = "StarWars: Cantina Simulator";
+			productReference = 3FEC77852042D33900DCDA4B /* StarWars: Cantina Simulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FEC779A2042D33900DCDA4B /* StarWars: Cantina SimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEC77B22042D33900DCDA4B /* Build configuration list for PBXNativeTarget "StarWars: Cantina SimulatorTests" */;
+			buildPhases = (
+				3FEC77972042D33900DCDA4B /* Sources */,
+				3FEC77982042D33900DCDA4B /* Frameworks */,
+				3FEC77992042D33900DCDA4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FEC779D2042D33900DCDA4B /* PBXTargetDependency */,
+			);
+			name = "StarWars: Cantina SimulatorTests";
+			productName = "StarWars: Cantina SimulatorTests";
+			productReference = 3FEC779B2042D33900DCDA4B /* StarWars: Cantina SimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FEC77A52042D33900DCDA4B /* StarWars: Cantina SimulatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEC77B52042D33900DCDA4B /* Build configuration list for PBXNativeTarget "StarWars: Cantina SimulatorUITests" */;
+			buildPhases = (
+				3FEC77A22042D33900DCDA4B /* Sources */,
+				3FEC77A32042D33900DCDA4B /* Frameworks */,
+				3FEC77A42042D33900DCDA4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FEC77A82042D33900DCDA4B /* PBXTargetDependency */,
+			);
+			name = "StarWars: Cantina SimulatorUITests";
+			productName = "StarWars: Cantina SimulatorUITests";
+			productReference = 3FEC77A62042D33900DCDA4B /* StarWars: Cantina SimulatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FEC777D2042D33900DCDA4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Student;
+				TargetAttributes = {
+					3FEC77842042D33900DCDA4B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					3FEC779A2042D33900DCDA4B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FEC77842042D33900DCDA4B;
+					};
+					3FEC77A52042D33900DCDA4B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FEC77842042D33900DCDA4B;
+					};
+				};
+			};
+			buildConfigurationList = 3FEC77802042D33900DCDA4B /* Build configuration list for PBXProject "StarWars: Cantina Simulator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FEC777C2042D33900DCDA4B;
+			productRefGroup = 3FEC77862042D33900DCDA4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FEC77842042D33900DCDA4B /* StarWars: Cantina Simulator */,
+				3FEC779A2042D33900DCDA4B /* StarWars: Cantina SimulatorTests */,
+				3FEC77A52042D33900DCDA4B /* StarWars: Cantina SimulatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FEC77832042D33900DCDA4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEC77952042D33900DCDA4B /* LaunchScreen.storyboard in Resources */,
+				3FEC77922042D33900DCDA4B /* Assets.xcassets in Resources */,
+				3FEC77BB2042FB0500DCDA4B /* Items.scnassets in Resources */,
+				3FEC77902042D33900DCDA4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEC77992042D33900DCDA4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEC77A42042D33900DCDA4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FEC77812042D33900DCDA4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEC778D2042D33900DCDA4B /* GameViewController.swift in Sources */,
+				3FEC77BD204302C600DCDA4B /* ShapeType.swift in Sources */,
+				3FEC77892042D33900DCDA4B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEC77972042D33900DCDA4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEC77A02042D33900DCDA4B /* StarWars__Cantina_SimulatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEC77A22042D33900DCDA4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEC77AB2042D33900DCDA4B /* StarWars__Cantina_SimulatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FEC779D2042D33900DCDA4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FEC77842042D33900DCDA4B /* StarWars: Cantina Simulator */;
+			targetProxy = 3FEC779C2042D33900DCDA4B /* PBXContainerItemProxy */;
+		};
+		3FEC77A82042D33900DCDA4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FEC77842042D33900DCDA4B /* StarWars: Cantina Simulator */;
+			targetProxy = 3FEC77A72042D33900DCDA4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FEC778E2042D33900DCDA4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FEC778F2042D33900DCDA4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FEC77932042D33900DCDA4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FEC77942042D33900DCDA4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FEC77AD2042D33900DCDA4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FEC77AE2042D33900DCDA4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FEC77B02042D33900DCDA4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "StarWars: Cantina Simulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ppke.itk.com.StarWars--Cantina-Simulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FEC77B12042D33900DCDA4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "StarWars: Cantina Simulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ppke.itk.com.StarWars--Cantina-Simulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FEC77B32042D33900DCDA4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "StarWars: Cantina SimulatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ppke.itk.com.StarWars--Cantina-SimulatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarWars: Cantina Simulator.app/StarWars: Cantina Simulator";
+			};
+			name = Debug;
+		};
+		3FEC77B42042D33900DCDA4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "StarWars: Cantina SimulatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ppke.itk.com.StarWars--Cantina-SimulatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarWars: Cantina Simulator.app/StarWars: Cantina Simulator";
+			};
+			name = Release;
+		};
+		3FEC77B62042D33900DCDA4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "StarWars: Cantina SimulatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ppke.itk.com.StarWars--Cantina-SimulatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "StarWars: Cantina Simulator";
+			};
+			name = Debug;
+		};
+		3FEC77B72042D33900DCDA4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "StarWars: Cantina SimulatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ppke.itk.com.StarWars--Cantina-SimulatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "StarWars: Cantina Simulator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FEC77802042D33900DCDA4B /* Build configuration list for PBXProject "StarWars: Cantina Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEC77AD2042D33900DCDA4B /* Debug */,
+				3FEC77AE2042D33900DCDA4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEC77AF2042D33900DCDA4B /* Build configuration list for PBXNativeTarget "StarWars: Cantina Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEC77B02042D33900DCDA4B /* Debug */,
+				3FEC77B12042D33900DCDA4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEC77B22042D33900DCDA4B /* Build configuration list for PBXNativeTarget "StarWars: Cantina SimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEC77B32042D33900DCDA4B /* Debug */,
+				3FEC77B42042D33900DCDA4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEC77B52042D33900DCDA4B /* Build configuration list for PBXNativeTarget "StarWars: Cantina SimulatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEC77B62042D33900DCDA4B /* Debug */,
+				3FEC77B72042D33900DCDA4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FEC777D2042D33900DCDA4B /* Project object */;
+}
