@@ -22,8 +22,8 @@ class DeckOfCards { //starter pack with: +1,+2,+3,+4,+5 ,twice!
     init() {
         let types = [CardType.one,CardType.two,CardType.three,CardType.four,CardType.five]
         for type in types{
-            Deck.append(Card(value: type))
-            Deck.append(Card(value: type))
+            Deck.append(Card(value: type, multi_value: false))
+            Deck.append(Card(value: type, multi_value: false))
         }
     }
     

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F5C8EFF20518D7400FA026A /* PazaakScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5C8EFE20518D7400FA026A /* PazaakScene.swift */; };
+		3F5C8F0120518D8500FA026A /* PazaakScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F5C8F0020518D8500FA026A /* PazaakScene.sks */; };
 		3FBB8A2E204C145C005DE696 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB8A2D204C145C005DE696 /* Card.swift */; };
 		3FBB8A30204C1EFA005DE696 /* DeckOfCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB8A2F204C1EFA005DE696 /* DeckOfCards.swift */; };
 		3FEC77892042D33900DCDA4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC77882042D33900DCDA4B /* AppDelegate.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F5C8EFE20518D7400FA026A /* PazaakScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PazaakScene.swift; sourceTree = "<group>"; };
+		3F5C8F0020518D8500FA026A /* PazaakScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PazaakScene.sks; sourceTree = "<group>"; };
 		3FBB8A2D204C145C005DE696 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		3FBB8A2F204C1EFA005DE696 /* DeckOfCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckOfCards.swift; sourceTree = "<group>"; };
 		3FEC77852042D33900DCDA4B /* StarWars: Cantina Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StarWars: Cantina Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +119,8 @@
 				3FEC77BC204302C600DCDA4B /* ShapeType.swift */,
 				3FBB8A2D204C145C005DE696 /* Card.swift */,
 				3FBB8A2F204C1EFA005DE696 /* DeckOfCards.swift */,
+				3F5C8EFE20518D7400FA026A /* PazaakScene.swift */,
+				3F5C8F0020518D8500FA026A /* PazaakScene.sks */,
 			);
 			path = "StarWars: Cantina Simulator";
 			sourceTree = "<group>";
@@ -248,6 +254,7 @@
 				3FEC77922042D33900DCDA4B /* Assets.xcassets in Resources */,
 				3FEC77BB2042FB0500DCDA4B /* Items.scnassets in Resources */,
 				3FEC77902042D33900DCDA4B /* Main.storyboard in Resources */,
+				3F5C8F0120518D8500FA026A /* PazaakScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5C8EFF20518D7400FA026A /* PazaakScene.swift in Sources */,
 				3FBB8A30204C1EFA005DE696 /* DeckOfCards.swift in Sources */,
 				3FEC778D2042D33900DCDA4B /* GameViewController.swift in Sources */,
 				3FEC77BD204302C600DCDA4B /* ShapeType.swift in Sources */,
